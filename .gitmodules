@@ -1,0 +1,6 @@
+[submodule "services/data-vault"]
+	path = services/data-vault
+	url = https://github.com/ibct-dev/data-vault
+[submodule "services/lit-hub"]
+	path = services/lit-hub
+	url = https://github.com/ibct-dev/lit-hub

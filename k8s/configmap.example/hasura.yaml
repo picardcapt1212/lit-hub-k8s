@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+     name: hasura-configmap
+     namespace: default
+data:
+     HASURA_GRAPHQL_DATABASE_URL: "postgres://postgres:CnFFWE8xtWgk2uhGQAcmydgzzF1BzbGXmjRS62rBMURd@222.116.48.38:31101/postgres"
+     HASURA_GRAPHQL_PORT: "8080"
+     HASURA_GRAPHQL_ADMIN_SECRET: "ibct"
+     HASURA_GRAPHQL_ENABLE_CONSOLE: "true"
+     HASURA_GRAPHQL_UNAUTHORIZED_ROLE: "anonymous"
